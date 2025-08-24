@@ -5,6 +5,8 @@ import LocalStorage from "./js-components/storage/LocalStorage";
 import SessionsStorage from "./js-components/storage/SessionsStorage";
 import Cookies from "./js-components/storage/Cookies";
 import LazyLoading from "./js-components/lazyloading/LazyLoading";
+import PracticeStorage from "./js-components/storage/PracticeStorage";
+import Display from "./js-components/contextApi/Display";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <LocalStorage /> */}
       {/* <SessionsStorage /> */}
       {/* <Cookies /> */}
-      <LazyLoading />
+      {/* <LazyLoading /> */}
+      {/* <PracticeStorage /> */}
+      <Display />
     </div>
   );
 }
